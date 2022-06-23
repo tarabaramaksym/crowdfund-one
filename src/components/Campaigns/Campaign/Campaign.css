@@ -1,0 +1,72 @@
+.campaign-navbar  {
+  display: flex;
+  margin-top: 15px;
+}
+
+.campaign-nav-item {
+  padding:8px 55px 8px 55px;
+  background-color: #E9ECEF;
+  border:1px solid darkgray;
+  border-right: 0;
+} 
+
+.campaign-nav-item:hover {
+  background-color: #8991a2;
+  cursor: pointer;
+}
+
+.campaign-nav-item.active {
+  background-color: #222C3F;
+  color:white;
+}
+
+.campaign-nav-item.active:hover {
+  background-color: #222C3F;
+  cursor: default;
+}
+
+.campaign-nav-item.inactive {
+  background-color: rgb(182, 170, 170);
+  color:#828282
+}
+.campaign-nav-item.inactive:hover {
+  cursor: default;
+}
+
+.campaign-nav-item:last-child{
+  border-right:1px solid darkgray;
+  border-radius: 0 8px 8px 0;
+}
+
+.campaign-nav-item:first-child{
+  border-radius:  8px 0 0 8px;
+}
+
+.contribute-container {
+  display: flex;
+  width:600px;
+  margin-top:  15px;;
+  height: 40px;
+}
+
+.contribute-container .progress-bar {
+  width:305px;
+}
+
+.contribute-btn {
+  background-color: #FE6542;
+  color:white;
+  margin-left: 25px;
+  width:100px;
+}
+
+.contribute-btn:hover {
+  background-color: #f85430;
+  color: white;
+}
+
+.contribute-container .form-control-container {
+  width:120px;
+  margin-left: 8px;
+  margin-right: 15px;
+}

@@ -1,0 +1,120 @@
+.page-controls {
+  list-style: none;
+  display: flex;
+  padding:14px;
+  border-radius: 8px;
+  background-color: #E9ECEF;
+}
+
+.page-controls ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.page-controls li {
+  padding:6px 16px 6px 16px;
+  background-color: #E9ECEF;
+  border:1px solid darkgray;
+  border-right: none;
+}
+
+.page-controls li:last-child {
+  border-right:1px solid darkgray;
+  border-radius: 0 6px 6px 0;
+}
+
+.page-controls li:first-child {
+  border-radius: 6px 0 0 6px;
+}
+
+
+.page-controls li:hover {
+  background-color: #8991a2;
+  cursor: pointer;
+}
+
+
+.page-controls li.active {
+  background-color: #222C3F;
+  color:white;
+}
+
+
+.page-controls li.active:hover {
+  background-color: #222C3F;
+  cursor: default;
+}
+
+.page-controls .no-hover:hover {
+  background-color: #E9ECEF;
+  cursor: default;
+}
+
+.page-controls i {
+  
+  padding-top: 2px;
+  font-size: 1.3em;
+}
+
+.page-controls input {
+  margin-left: 25px;
+  margin-right: 8px;
+  width:15%;
+  padding:8px;
+}
+
+.campaigns-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.campaigns-list-container .card {
+  margin:15px;
+}
+.campaigns-list-container img {
+  width:300px;
+}
+
+.campaigns-list-container .progress-bar {
+  position: absolute;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  background-color: #222C3F;
+  color:white !important;
+  border: 1px solid darkgray;
+}
+.campaigns-list-container .card-body {
+  padding-top: 3px;
+  padding-bottom: 0;
+
+}
+
+
+.campaigns-list-container h5 {
+  margin:0;
+  margin-top: 4px;
+}
+
+
+.campaigns-list-container .progress-bar .target {
+  color:white !important;
+}
+
+.campaigns-list-container .progress-bar .fill p {
+  padding-left: 3px;
+}
+
+.img-progress-bar-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.campaigns-list-container a {
+  color:black;
+}
+
+.campaigns-list-container a:hover {
+  text-decoration: none;
+}
+

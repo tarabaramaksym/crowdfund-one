@@ -1,0 +1,19 @@
+
+.margin {
+  margin: 35px;
+}
+
+.campaigns-container {
+  margin-top:50px;
+}
+
+.cards-details {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin:15px;
+}
+
+.cards-details .card {
+  margin:10px;
+}

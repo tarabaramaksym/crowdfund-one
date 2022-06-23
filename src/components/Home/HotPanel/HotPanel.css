@@ -1,0 +1,58 @@
+.hot-campaigns {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.hot-element img, .hot-element-body{
+  max-width: 240px;
+  min-width: 180px;
+  
+}
+
+.hot-selected {
+  width: 550px;
+  margin-right: 25px;
+}
+
+.hot-element {
+  margin:15px 0 0 10px;
+}
+
+.hot-element, .hot-selected {
+  display: flex;
+  flex-direction: column-reverse;
+  cursor: pointer;
+}
+
+.hot-selected-body, .hot-element-body{
+  background-color: #222C3F;
+  color:white;
+  padding:15px;
+  opacity: 85%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.hot-element-body {
+  margin-top:125px;
+}
+
+.card-row {
+  display: flex;
+}
+
+.card-row  > .progress-bar{
+  width:60%;
+}
+
+.hot-not-selected {
+  max-width: 550px;
+  
+  width:auto;
+  display: flex;
+  flex-wrap: wrap;
+}

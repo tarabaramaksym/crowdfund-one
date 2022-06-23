@@ -1,0 +1,139 @@
+.campaign-form {
+  
+  
+  max-width: 800px;
+  margin: 0 15px;
+  min-width: 550px;
+
+}
+
+.form-control:focus {
+  box-shadow:1px 1px 12px darkgray;
+}
+
+.campaign-form .form-control {
+  margin-top: 15px;
+  font-size: 1.1em;
+
+  color:black;
+  padding:12px;
+}
+
+.campaign-form .form-control::placeholder, .containered-control::placeholder {
+  color:rgb(206, 198, 198);
+ 
+}
+
+.campaign-form textarea.form-control {
+  min-height: 150px;
+}
+
+
+html::selection,body::selection {
+  background-color: #FE6542 !important;
+}
+
+.double-row {
+  display:flex;
+  margin-top: 15px;
+}
+
+
+.double-row .form-control {
+  margin:0;
+}
+.double-row .form-control:first-child {
+  margin-right:15px;
+
+}
+
+.hint {
+  border-bottom: 1px dashed rgb(143, 136, 136);
+  color:rgb(111, 109, 109);
+  cursor:help;
+}
+.hint:hover {
+  color:black;
+}
+.hint-container {
+  position: absolute;
+  width:300px;
+  box-shadow: 0 0 5px darkgray;
+  padding:5px;
+  margin-top: -12px;
+  margin-left: 15px;
+  background-color: white;
+}
+
+.containered-control {
+  background-color: inherit;
+  color:inherit;
+  padding:10px;
+  margin:0;
+  font-size: 1.1em;
+  width:90%;
+  border-radius:0.25rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.form-control-container {
+  padding:0!important;
+  display: flex;
+  box-shadow: 1px 1px 5px darkgrey;
+  border-radius: 0.25rem;
+}
+.form-control-container p{
+  padding:0;
+  margin:0;
+  height: 100%;
+  border-radius: 0 0.2rem  0.2rem 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 3px;
+  padding-left: 3px;
+  background-color: rgb(77, 72, 72);
+  color:white;
+}
+
+
+button.danger-btn, button.success-btn {
+  color:white;
+  margin-right: 20px;
+  padding:8px !important;
+  padding-right: 18px !important;
+  padding-left: 18px !important;
+}
+
+.success-btn {
+  background-color: #eb5d31;
+}
+
+.success-btn:hover {
+  background-color: #fc6233;
+  color:white;
+}
+
+.danger-btn {
+  background-color: #c40404;
+ 
+}
+
+
+.danger-btn:hover {
+  background-color: #ce0d0d;
+  color:white;
+}
+
+
+.campaign-form-container {
+  background-color: #e9ecef;
+  width:auto;
+  padding:25px;
+  margin-top: 20px;
+
+}
+
+.campaign-form-container h3 {
+  display: flex;
+}

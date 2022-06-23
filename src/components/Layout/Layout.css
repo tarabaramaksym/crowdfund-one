@@ -1,0 +1,64 @@
+.layout-container {
+  display: flex;
+  align-items: stretch;
+  width:100%;
+
+
+}
+
+.campaigns-container {
+  margin: 35px 75px 0 45px;
+  width: 100%;
+  max-width: 1400px;
+  margin-left: 350px;
+ 
+}
+
+.campaigns-container.sub {
+  margin:0;
+}
+
+.container-divider {
+  border-bottom: 2px solid rgb(197, 189, 189);
+  opacity: 30%;
+  margin:3px;
+}
+
+.left-border {
+  width:20px;
+  background-color: #E6E6E6;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+.connect-btn, .connected-btn {
+  background-color:#FE6542 ;
+  color:white;
+  font-weight: 600;
+  width:20%;
+  margin-bottom: 1rem;;
+  margin-left: 25px;
+}
+
+.connect-btn:hover {
+  color:white;
+  background-color: #3E4758;
+}
+
+.connected-btn, .connected-btn:hover{
+  background-color: #222C3F;
+  color:white; 
+  cursor: default;
+}
+
+.top-container {
+  display: flex;
+  width: 100%;
+}
+
+
+.top-container nav {
+  width:80%;
+}

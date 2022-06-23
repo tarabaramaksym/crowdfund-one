@@ -1,0 +1,128 @@
+.header {
+  font-size: calc(1.325rem + .9vw);
+  font-weight: 500;
+}
+
+.item {
+  padding: 5px;
+  margin: 0;
+}
+
+.item-container {
+
+  margin: 3px;
+}
+
+.one {
+  width: 11.5%;
+}
+
+.two {
+  width: 24%;
+}
+
+.three {
+  width: 36.5%;
+}
+
+.four {
+  width: 49%;
+}
+
+.five {
+  width: 61.5%;
+}
+
+.six {
+  width: 74%;
+}
+
+.seven {
+  width: 86.5%;
+}
+
+.eight {
+  width: 98.55%;
+}
+
+@media only screen and (max-width:1400px) {
+
+  .one {
+    width: 99%;
+  }
+
+  .two {
+    width: 99%;
+  }
+
+  .three {
+    width: 99%;
+  }
+
+  .four {
+    width: 99%;
+  }
+
+}
+
+.item-container.active {
+  box-shadow: 0px 0px 1px 1px #222c3f;
+}
+
+img.item {
+  object-fit: cover;
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+}
+
+.one iframe {
+  height: calc(100vw*0.103);
+}
+
+.two iframe {
+  height: calc(100vw*0.15);
+}
+
+.three iframe {
+  height: calc(100vw*0.227);
+}
+
+.four iframe {
+  height: calc(100vw*0.3035);
+}
+
+.item-buttons {
+  margin-right: 15px;
+  display: flex;
+  float: right;
+}
+
+.absolute-group {
+  position: absolute;
+  margin-left: -100px;
+  margin-top: -1px;
+  padding: 5px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border: 1px solid black;
+  border-radius: 6px;
+  border-top: none;
+  background-color: #222c3f;
+
+}
+
+.item-buttons .btn {
+  padding: 0;
+  font-size: 22px;
+  margin: 5px;
+  color: white;
+}
+
+.flipped-icon {
+  transform: rotate(90deg);
+  display: block;
+  margin-top: -3px;
+}

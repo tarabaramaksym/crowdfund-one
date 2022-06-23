@@ -1,0 +1,17 @@
+.profile-details {
+  padding:15px;
+
+  border-radius: 8px;
+  display: flex;
+  margin:15px;
+}
+
+.profile-details i {
+  font-size: 6rem;
+  color:#222C3F;
+}
+
+.profile-details .card {
+  margin-left: 15px;
+  margin-top: 8px;
+}

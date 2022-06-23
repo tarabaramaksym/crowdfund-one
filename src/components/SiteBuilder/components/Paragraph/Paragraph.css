@@ -1,0 +1,23 @@
+p {
+  word-wrap: break-word;
+}
+
+.paragraph {
+  width:100%;
+}
+
+pre {
+  display: block;
+  font-family: inherit;
+  word-break: break-word;
+  margin: 1em 0px;
+  height:auto;
+  text-overflow: inherit;
+  white-space: pre-wrap;
+  font-size: inherit;
+  margin:0;
+}
+
+.form-control > .paragraph{
+  height: auto;
+}

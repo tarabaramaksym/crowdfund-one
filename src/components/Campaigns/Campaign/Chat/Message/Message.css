@@ -1,0 +1,50 @@
+
+.left-message {
+  align-self:flex-start;
+}
+
+.right-message {
+  align-self:flex-end;
+}
+
+.message a.sender {
+  color:rgb(146, 146, 146);
+  text-align: left;
+  font-size: 0.8em;
+  margin-left: 5px;
+}
+.message a.sender:hover {
+  color:rgb(214, 214, 214);
+  cursor: pointer;
+}
+
+.message {
+  border: 2px solid darkgray;
+  background-color: white;
+  border-radius: 15px;
+  max-width: 380px;
+  min-width: 190px;
+  padding:0 5px 0 5px;
+  margin:5px;
+}
+
+.message p {
+  margin-bottom: 0;
+  padding-right: 25px ;
+}
+
+.message p::selection, .message .time::selection, .message a.sender::selection{
+  background-color: darkgray;
+}
+
+*::selection {
+  background-color: darkgray;
+}
+.message .time {
+  font-size: 0.8em;
+  text-align: right;
+  padding:0;
+  position: relative;
+  top:-4px;
+
+}

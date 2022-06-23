@@ -1,0 +1,46 @@
+.chat-room {
+  width:500px;
+  margin:35px;
+  background-color: #E9ECEF;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.messages {
+  display: flex;
+  width:100%;
+  flex-direction: column;
+  height: 430px;
+  overflow: auto;
+  padding:5px;
+}
+
+.message-input {
+  height: 65px;
+  padding:10px;
+  padding-top: 0;
+
+}
+
+.message-input input {
+  height: 50px;
+  padding:6px;
+  margin-top: 0;
+  word-wrap: break-word;
+  width:100%;
+}
+
+.messages::-webkit-scrollbar {
+  width: 5px;   
+}
+
+.messages::-webkit-scrollbar-track {
+  background: rgb(201, 201, 201);       /* color of the tracking area */
+}
+
+.messages::-webkit-scrollbar-thumb {
+  background-color: #6f6967;   /* color of the scroll thumb */
+
+}

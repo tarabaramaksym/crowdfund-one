@@ -1,0 +1,31 @@
+.toast {
+  position: absolute;
+  bottom:75px;
+  right:85px;
+  background-color: #222c3f;
+  animation-duration: 1s;
+  animation-name: slidein;
+  width:100%;
+}
+
+@keyframes slidein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 75px;
+    opacity: 1;
+  }
+}
+
+.toast-body {
+  display: flex;
+}
+
+
+.btn-close {
+  padding:0;
+  color:white;
+}

@@ -1,0 +1,23 @@
+.progress-bar {
+  width:100%;
+  border-radius: 5px;
+  background-color: #E6E6E6;
+
+}
+
+.fill {
+  border-radius: 5px;
+  background-color: #FE6542;
+}
+
+.fill p {
+  margin-top: 3px;
+}
+
+.progress-bar .target {
+  position: absolute;
+  align-self:flex-end;
+  margin-top: 14px;
+  margin-right: 5px;
+  color:#222C3F;
+}

@@ -1,0 +1,65 @@
+
+.absolute-container {
+  position: absolute;
+  width: 900px;
+}
+
+.form-control {
+  box-shadow: 1px 1px 5px darkgray;
+  padding:5px;
+  width:100%;
+  height: 100%;
+  border:0;
+}
+
+input, textarea {
+  height: 100%;
+  width:100%;
+  border:0;
+  padding:0;
+}
+
+
+input:focus, textarea  {
+  outline: none;
+}
+
+.input-window-parent {
+  width:100%;
+}
+
+.form-control.paragraph {
+  height: auto;
+}
+
+.form-control.mainHeading {
+  margin-top: -2px;
+  margin-bottom: -2px;
+} 
+
+.form-control.mainHeading > input, .form-control.heading > input {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.form-control.heading {
+  height: 43.6px;
+}
+
+.form-control.heading > input {
+  font-size: 1.75rem;
+  margin-top: 0px;
+}
+
+.form-control.mainHeading > input {
+  margin-top: -1px;
+}
+
+
+.form-control.image, .form-control.youtube {
+  position: absolute;
+  height: auto;
+  margin-left: 5px;
+ 
+}

@@ -1,0 +1,79 @@
+.navbar-container {
+  width: 300px;
+  max-width: 300px;
+  min-width: 300px;
+  background-color: #222c3f;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  position: fixed;
+}
+
+.navbar-container .buttons .btn {
+  color:white;
+  text-align: left;
+  font-size: 1.1em;
+  padding:8px 5px 8px 15px;
+  border-radius: 0;
+}
+
+.navbar-container .buttons .btn-menu-disabled {
+  color:darkgray;
+}
+
+
+.navbar-container .buttons .btn-menu-disabled:hover {
+  background-color: transparent !important;
+  cursor: default !important;
+}
+
+.navbar-container .buttons .btn i{
+  margin-right: 8px;
+  font-size: 1.3em;
+  position: relative;
+  top: 3px;
+  color:#FE6542;
+}
+
+.navbar-container .buttons .btn:hover, .navbar-container .buttons .active{
+  background-color: #3D4657;
+}
+
+@media only screen and (max-width:800px) {
+
+ .navbar-container {
+   display: hidden;
+ }
+}
+
+.buttons .btn {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-container .buttons {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0px 20px;
+
+}
+
+.logo {
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.white-hr {
+  margin:15px;
+  border-top: 1px solid white;
+}
+
+.bottom-panel {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* The Modal (background) */
